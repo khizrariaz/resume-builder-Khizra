@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+#r-b{
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
+    
+
+}
+
+.resume {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: wheat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+img {
+    max-width: 150px;
+    border-radius: 50%;
+
+    
+        position: absolute;
+        top: 80px;
+        right: 400px;
+        width: 150px; /* Adjust the size as needed */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 70%; /* Optional: make it a circle */
+    
+      
+
+    
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color:brown;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:grey;
+}
+.hidden {
+    display: none;
+}
